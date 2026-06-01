@@ -1,0 +1,41 @@
+# Node modules
+**/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment Variables
+**/.env
+**/.env.local
+
+# Python Environments
+**/venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.Python
+**/pip-log.txt
+**/pip-delete-this-directory.txt
+**/.tox/
+**/.coverage
+**/.coverage.*
+**/.cache
+**/nosetests.xml
+**/coverage.xml
+**/*.cover
+**/.hypothesis/
+
+# Production Build
+**/dist/
+**/build/
+
+# Mac OS Specific
+.DS_Store
+
+# IDE and Editor
+**/.vscode/
+**/.idea/
+
+# File Uploads (Ignore sample images uploaded during tests)
+backend/uploads/*
+!backend/uploads/.gitkeep
